@@ -12,12 +12,12 @@ import { useEffect } from "react";
 
 export const Login = () => {
   useEffect(() => {
-    var queryParams = "client_id=" + ConfigB2C.client_id;
-    /* "&nonce=anyRandomValue" +
+    var queryParams =
+      "&nonce=anyRandomValue" +
       "&redirect_uri= " +
       "&scope=https://swisswaib2c.onmicrosoft.com/api/" +
       ConfigB2C.scope +
-      "&response_type=code"; */
+      "&response_type=code";
     // var fullTokenEndpoint = ConfigB2C.tokenEndpointAuthorize + queryParams;
     window.location.href =
       "https://swisswaib2c.b2clogin.com/swisswaib2c.onmicrosoft.com/B2C_1_SignIn/oauth2/v2.0/authorize?" +
