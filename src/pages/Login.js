@@ -16,8 +16,7 @@ export const Login = () => {
       "client_id=" +
       ConfigB2C.client_id +
       "&nonce=anyRandomValue" +
-      "&redirect_uri=" +
-      ConfigB2C.redirect_uri +
+      "&redirect_uri= " +
       "&scope=https://swisswaib2c.onmicrosoft.com/api/" +
       ConfigB2C.scope +
       "&response_type=code";
