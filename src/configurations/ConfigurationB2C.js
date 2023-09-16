@@ -24,5 +24,6 @@ export var ConfigB2C = {
   redirect_uri: "https://dapper-jalebi-101d7d.netlify.app",
   scope: "openid offline_access",
   tokenEndpoint: process.env.REACT_APP_BC_LOGIN_URL,
-  tokenEndpointAuthorize: process.env.REACT_APP_BC_AUTHORIZE_URL,
+  tokenEndpointAuthorize:
+    "https://swisswaib2c.b2clogin.com/swisswaib2c.onmicrosoft.com/B2C_1_SignIn/oauth2/v2.0/authorize?",
 };
