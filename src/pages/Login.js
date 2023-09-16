@@ -7,11 +7,12 @@ Portail étudiant SWISSWAI
 =========================================================
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-import { ConfigB2C } from "configurations/ConfigurationB2C";
-import { useEffect } from "react";
+/* import { ConfigB2C } from "configurations/ConfigurationB2C";
+import { useEffect } from "react"; */
 
 export const Login = () => {
-  useEffect(() => {
+  <h1>Hello</h1>;
+  /*   useEffect(() => {
     var queryParams =
       "client_id=" +
       ConfigB2C.client_id +
@@ -23,5 +24,5 @@ export const Login = () => {
       "&response_type=code";
     var fullTokenEndpoint = ConfigB2C.tokenEndpointAuthorize + queryParams;
     window.location.href = fullTokenEndpoint;
-  });
+  }); */
 };
