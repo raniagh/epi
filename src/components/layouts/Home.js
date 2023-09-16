@@ -120,13 +120,7 @@ const Home = (props) => {
                 )}
 
                 {/*Main content*/}
-                <Routes>
-                  {getRoutes(routes)}
-                  <Route
-                    path="*"
-                    element={<Navigate to="/home/dashboard" replace />}
-                  />
-                </Routes>
+                <Routes>{getRoutes(routes)}</Routes>
               </Col>
             )}
             {showCommunication && (
