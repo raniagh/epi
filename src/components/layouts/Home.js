@@ -9,7 +9,7 @@ The above copyright notice and this permission notice shall be included in all c
 */
 
 import { useState, useEffect, useRef } from "react";
-import { useLocation, Route, Routes, Navigate } from "react-router-dom";
+import { useLocation, Route, Routes } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 import Sidebar from "./Sidebar/Sidebar";
 import UserHeader from "components/sections/UserHeader";
@@ -24,7 +24,7 @@ import {
 import { getSharePointTokenAsync } from "Services/SharePointServices";
 import { routes } from "Routes";
 
-const Home = (props) => {
+const Home = () => {
   const mainContent = useRef(null);
   const location = useLocation();
   const [isLoading, setIsLoading] = useState(true); // Add loading state for main content
