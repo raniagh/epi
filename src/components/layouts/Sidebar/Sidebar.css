@@ -1,0 +1,96 @@
+#sidenav-main {
+  background-color: #3b1b6f;
+  border-radius: 0px 25px 25px 0px;
+}
+@media (max-width: 767px) {
+  #sidenav-main {
+    border-radius: 0px;
+  }
+  .sidebar-col {
+    padding-left: 0px;
+  }
+  .navbar-collapse.collapsing,
+  .navbar-collapse.show {
+    background-color: #3b1b6f;
+    width: 16rem;
+  }
+}
+@media (min-width: 768px) {
+  #sidenav-main {
+    width: 13rem;
+  }
+}
+.navbar-toggler span {
+  background-color: #fff !important;
+}
+.navbar-nav {
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 20rem;
+}
+.navbar-nav .nav-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3rem;
+  padding-left: 1.1rem;
+}
+.nav-item__text {
+  font-family: "SuisseIntlRegular";
+  color: #fff;
+  margin-left: 1rem;
+  font-size: 0.85rem;
+}
+li.active {
+  background-color: #a682fc;
+}
+.logo-title {
+  justify-content: center;
+  margin-top: 1rem;
+  height: 3rem;
+  width: 10rem;
+}
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+@media (max-width: 767px) {
+  .nav-image {
+    height: 5rem;
+    width: 5rem;
+  }
+}
+@media (min-width: 768px) {
+  .nav-image {
+    height: 7rem;
+    width: 7rem;
+    margin-bottom: 8rem;
+  }
+}
+.avatar img {
+  width: 2.5rem;
+}
+.side-logo {
+  width: 100%;
+}
+.navbar-brand-img {
+  max-height: 2.7rem !important;
+}
+@media (max-width: 767px) {
+  .notification-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .notification-user {
+    display: none;
+  }
+}
+.menu-image {
+  display: flex;
+  justify-content: center;
+}

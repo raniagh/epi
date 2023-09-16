@@ -1,0 +1,31 @@
+.input-icons {
+  width: 11rem;
+  margin-bottom: 10px;
+}
+
+.icon {
+  position: absolute;
+  padding: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 12px;
+  color: rgba(224, 224, 224, 1);
+}
+
+.input-field {
+  width: 100%;
+  padding: 6px;
+  text-align: center;
+  border-radius: 25px;
+  border: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  font-family: "SuisseIntlLight";
+  font-size: 14px;
+}
+::placeholder {
+  color: rgba(224, 224, 224, 1);
+  font-family: "SuisseIntlLight";
+  font-size: 14px;
+}

@@ -1,0 +1,23 @@
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* Set the desired background color */
+  z-index: 9999;
+}
+
+.logo {
+  width: 150px; /* Adjust logo size */
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.circular-progress {
+  color: #fff; /* Color of the circular progress bar */
+}

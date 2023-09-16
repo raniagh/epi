@@ -1,0 +1,32 @@
+.icon-button__badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  background: rgb(197, 49, 193);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.notification-nav {
+  max-height: 25rem;
+}
+
+.read-notif {
+  border-top: 1px solid #e9ecef;
+}
+
+.unread-notif {
+  background-color: #e9ecef;
+  border-top: 1px solid #ffffff;
+}
+
+.unread-notif:hover {
+  background-color: #ffffff;
+  border-top: 1px solid #e9ecef;
+}

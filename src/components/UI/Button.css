@@ -1,0 +1,24 @@
+.save-button {
+  background-color: #3b1b6f;
+  color: #f2f1fa;
+  border-radius: 25px;
+  border: none;
+  padding: 2px 12px;
+  font-size: 14px;
+}
+.save-button:hover {
+  background-color: rgb(233, 229, 229);
+  color: #3b1b6f;
+}
+.cancel-button {
+  background-color: rgb(233, 229, 229);
+  color: #3b1b6f;
+  border-radius: 25px;
+  border: none;
+  padding: 2px 18px;
+  font-size: 14px;
+}
+.cancel-button:hover {
+  background-color: #3b1b6f;
+  color: #f2f1fa;
+}

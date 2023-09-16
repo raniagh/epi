@@ -1,0 +1,7 @@
+.absence-items {
+  background-color: #f7f7f7;
+  margin: 0.5rem;
+  height: 3rem;
+  border-radius: 25px;
+  cursor: pointer;
+}

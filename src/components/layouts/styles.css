@@ -1,0 +1,65 @@
+/* styles.css */
+.layout-container {
+  background-image: url("../Assets/img/theme/Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.scrollable-list {
+  margin-bottom: 0; /* Remove the default bottom margin from ListGroup */
+}
+
+/* Apply centering styles */
+.center-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+/* Apply centering styles */
+.center-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+/* Set the parent container to use flex layout and occupy available height */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Allow the scrollable sections to fill the remaining space */
+.scrollable-section {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Adjust margins and paddings as needed */
+/* Home.css */
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Responsive margin classes */
+@media (min-width: 768px) {
+  .sidebar-col {
+    margin-left: -20%; /* Adjust the margin value as needed */
+  }
+  .main-content-col {
+    margin-left: -20%; /* Adjust the margin value as needed */
+  }
+  .header-row {
+    margin-left: -20%; /* Adjust the margin value as needed */
+  }
+}
+
+/* Additional media queries for different screen sizes if necessary */

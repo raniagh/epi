@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+  .calendar-main-content {
+    margin-top: 6.8rem;
+  }
+}
+.seance-details_header {
+  background: #f7f7f7;
+  padding: 0.8rem;
+  align-items: center;
+}
+.modal-title {
+  color: #3b1b6f;
+  font-size: 14px;
+  font-family: "SuisseIntlRegular";
+}
+.modal-body {
+  padding: 1.1rem;
+}
+.agenda {
+  font-size: 13px;
+  font-family: "SuisseIntlRegular";
+}
+.rbc-toolbar {
+  font-size: 13px;
+  font-family: "SuisseIntlRegular";
+}
+.rbc-event {
+  background-color: #a682fc;
+}
+.rbc-event.rbc-selected {
+  background-color: #3b1b6f !important;
+  border: #3b1b6f;
+}
